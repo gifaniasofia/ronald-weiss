@@ -23,6 +23,13 @@ const financialFreedomList = [
   },
 ];
 
+const ratings = [
+  '/images/avvo-rating.webp',
+  '/images/revenue.webp',
+  '/images/accreditation.webp',
+  '/images/google-reviews.webp',
+];
+
 export const WhyChoose = () => {
   const [value, setValue] = useState([25]);
 
@@ -72,7 +79,7 @@ export const WhyChoose = () => {
             </div>
           </div>
           <div className='size-full md:grid md:grid-rows-2 bg-light-green lg:pb-[20%]'>
-            <div className='size-full bg-blue text-white lg:pt-[25%] lg:[clip-path:polygon(0_0,_100%_0,_100%_80%,_0%_100%)]'>
+            <div className='size-full bg-blue text-white lg:pt-[25%] lg:[clip-path:polygon(0_0,_100%_0,_100%_75%,_0%_100%)]'>
               <div className='space-y-6 px-4 py-10 lg:px-10 font-semibold flex flex-col items-center text-center'>
                 <h3 className='text-xl lg:text-3xl'>
                   Get a FREE, Personalized Bankruptcy Evaluation
@@ -121,12 +128,41 @@ export const WhyChoose = () => {
         </div>
       </div>
 
-      <div className='relative isolate overflow-hidden z-20 w-full lg:[clip-path:polygon(0_30%,_100%_0,_100%_70%,_0%_100%)] lg:-mb-[15%]'>
+      <div className='relative isolate overflow-hidden z-20 w-full lg:[clip-path:polygon(0_30%,_100%_0,_100%_70%,_0%_100%)] lg:-mb-[14%]'>
         <img
           src='/images/choose-us.webp'
           alt=''
           className='h-auto w-full object-cover'
         />
+      </div>
+
+      <div className='w-full bg-white max-lg:py-20 lg:h-[619px] relative lg:-mb-[9%] z-30 inset-x-0 transform skew-y-[-10deg]'>
+        <div className='transform skew-y-[10deg]'>
+          <div className='flex max-md:flex-col gap-10 items-center md:justify-between max-w-4xl xl:max-w-5xl mx-auto w-full'>
+            <h2 className='text-black text-3xl lg:text-4xl xl:text-5xl text-center font-semibold lg:pt-65'>
+              We Deliver
+              <br />
+              Results
+              <br />
+              To Our Clients,
+              <br />
+              And It Shows
+            </h2>
+
+            <div className='relative'>
+              <div className='grid grid-cols-2 gap-4'>
+                {ratings.map((src, srcIdx) => (
+                  <img
+                    key={srcIdx}
+                    src={src}
+                    alt=''
+                    className='size-40 xl:size-50'
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
