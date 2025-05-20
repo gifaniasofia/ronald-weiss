@@ -24,7 +24,7 @@ export const Bankruptcy = () => {
     <div className='pb-20 lg:pb-72'>
       <SectionService
         id='bankruptcy'
-        image='/images/services/bankruptcy-2.webp'
+        image='/images/services/bankruptcy.webp'
         overlayImage={
           <SectionTitle className='lg:top-[60%]'>
             How Can <br className='max-lg:hidden' />

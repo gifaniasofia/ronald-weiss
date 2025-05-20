@@ -35,7 +35,7 @@ export const Litigation = () => {
     <div className='pb-20 lg:pb-72'>
       <SectionService
         id='litigation'
-        image='/images/services/litigation-2.webp'
+        image='/images/services/litigation.webp'
         classNames={{
           navbar:
             'max-lg:flex max-lg:relative max-sm:top-0 max-lg:top-4 max-sm:mb-5 max-lg:mb-12 max-lg:py-2',

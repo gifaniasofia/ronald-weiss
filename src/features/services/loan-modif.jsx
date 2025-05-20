@@ -6,7 +6,7 @@ export const LoanModif = () => {
     <div className='pb-20 lg:pb-72'>
       <SectionService
         id='loan'
-        image='/images/services/loan-2.webp'
+        image='/images/services/loan.webp'
         overlayImage={
           <SectionTitle>
             How Can <br className='max-lg:hidden' />

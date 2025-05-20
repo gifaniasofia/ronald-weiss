@@ -30,7 +30,7 @@ export const Negotiations = () => {
     <div className='pb-20 lg:pb-72'>
       <SectionService
         id='negotiations'
-        image='/images/services/negotiations-2.webp'
+        image='/images/services/negotiations.webp'
         overlayImage={
           <SectionTitle>
             How Can <br className='max-lg:hidden' />
