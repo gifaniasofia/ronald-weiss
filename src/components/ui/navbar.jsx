@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 
-export const Navbar = () => {
+import { cn } from '@/lib/utils';
+
+export const Navbar = ({ className }) => {
   return (
-    <header className='absolute inset-x-0 top-8 z-50'>
+    <header className={cn('absolute inset-x-0 top-8 z-50', className)}>
       <nav
         aria-label='Global'
-        className='flex items-center justify-between gap-3 relative container-center py-3 h-18'
+        className='flex items-center justify-between gap-3 w-full relative container-center py-3 h-18'
       >
         <div className='flex flex-1'>
           <Link to='/'>
@@ -20,7 +22,7 @@ export const Navbar = () => {
         <div className='flex flex-1 justify-end'>
           <span className='flex items-center gap-2 font-semibold text-xs sm:text-base'>
             <span className='shrink-0'>
-              <img src='/images/call.webp' alt='' className='size-10' />
+              <img src='/images/home/call.webp' alt='' className='size-10' />
             </span>
             <span>TALK TO AN ATTORNEY NOW 555-555-555</span>
           </span>

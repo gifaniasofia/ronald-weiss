@@ -3,7 +3,7 @@ export const Clients = () => {
     <div className='relative'>
       <div className='relative z-20 w-full lg:-mb-[30%] lg:[clip-path:polygon(0_30%,_100%_0,_100%_70%,_0%_100%)]'>
         <img
-          src='/images/clients-1.webp'
+          src='/images/home/clients-1.webp'
           alt=''
           className='h-auto w-full object-cover'
         />
@@ -37,7 +37,7 @@ export const Clients = () => {
 
       <div className='w-full overflow-hidden relative lg:[clip-path:polygon(0_0,_100%_0,_100%_100%,_0_44%)] lg:-mb-[20%]'>
         <img
-          src='/images/clients-2.webp'
+          src='/images/home/clients-2.webp'
           alt=''
           className='w-full h-auto object-top object-cover transform scale-x-[-1]'
         />

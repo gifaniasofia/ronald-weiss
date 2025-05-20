@@ -7,27 +7,27 @@ import { formatNumber } from '@/lib/utils';
 const financialFreedomList = [
   {
     name: 'Stop creditor calls and letters',
-    image: '/images/forbidden-call.webp',
+    image: '/images/home/forbidden-call.webp',
   },
   {
     name: 'Keep your assets and wages safe',
-    image: '/images/safe-guard.webp',
+    image: '/images/home/safe-guard.webp',
   },
   {
     name: 'Start <span class="font-bold">100% fresh</span>, without old debts weighing you down',
-    image: '/images/chart.webp',
+    image: '/images/home/chart.webp',
   },
   {
     name: 'Set yourself up to build your <span class="font-bold">long term credit</span>',
-    image: '/images/card.webp',
+    image: '/images/home/card.webp',
   },
 ];
 
 const ratings = [
-  '/images/avvo-rating.webp',
-  '/images/revenue.webp',
-  '/images/accreditation.webp',
-  '/images/google-reviews.webp',
+  '/images/home/avvo-rating.webp',
+  '/images/home/revenue.webp',
+  '/images/home/accreditation.webp',
+  '/images/home/google-reviews.webp',
 ];
 
 export const WhyChoose = () => {
@@ -130,7 +130,7 @@ export const WhyChoose = () => {
 
       <div className='relative isolate overflow-hidden z-20 w-full lg:[clip-path:polygon(0_30%,_100%_0,_100%_70%,_0%_100%)] lg:-mb-[14%]'>
         <img
-          src='/images/choose-us.webp'
+          src='/images/home/choose-us.webp'
           alt=''
           className='h-auto w-full object-cover'
         />

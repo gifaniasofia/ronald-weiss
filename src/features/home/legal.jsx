@@ -3,14 +3,14 @@ export const Legal = () => {
     <div className='relative lg:-mt-[10%]'>
       <div className='relative z-20 w-full lg:-mb-[30%] lg:[clip-path:polygon(0_30%,_100%_0,_100%_70%,_0%_100%)]'>
         <img
-          src='/images/legal-1.webp'
+          src='/images/home/legal-1.webp'
           alt=''
           className='w-full h-auto object-cover'
         />
       </div>
       <div className='w-full overflow-hidden relative lg:[clip-path:polygon(0_0,_100%_0,_100%_100%,_0_44%)] lg:-mb-[26%]'>
         <img
-          src='/images/legal-2.webp'
+          src='/images/home/legal-2.webp'
           alt=''
           className='w-full h-auto object-cover object-top'
         />
@@ -71,7 +71,11 @@ export const Legal = () => {
             Learn how we can reduce, or even eliminate your debt in a FREE
             consultation with an attorney.
           </p>
-          <img src='/images/groups.webp' alt='' className='w-full h-auto' />
+          <img
+            src='/images/home/groups.webp'
+            alt=''
+            className='w-full h-auto'
+          />
           <h5 className='text-xl sm:text-2xl font-semibold max-sm:max-w-[250px] text-white'>
             Talk to an attorney now 555-555-5555
           </h5>
